@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# BiteExpress
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BiteExpress is a responsive restaurant ordering web application built with ReactJS. Customers can browse the menu, add items to their cart, and track their orders online.
 
-## Available Scripts
+## Live Links
+- **Live Website:** https://bite-express-nu.vercel.app
+- **GitHub Repository:** https://github.com/0alisabbah-hash/BiteExpress
 
-In the project directory, you can run:
+## Features
+- **Multi-Page Navigation:** Home, Menu, Cart, About, Contact, and Track Order pages.
+- **Interactive Menu, Cart & Tracking:** Add dishes, simulate order tracking, and view real-time total values.
+- **Responsive Design:** Works across desktop and mobile screens.
 
-### `npm start`
+## Technologies Used
+- ReactJS
+- React Router
+- CSS3
+- Vercel (Hosting)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Home Page
+![Home Page](screenshots/home.png)
 
-### `npm test`
+### Menu Page
+![Menu Page](screenshots/menu.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Cart Page
+![Cart Page](screenshots/cart.png)
 
-### `npm run build`
+### About Page
+![About Page](screenshots/about.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Track Order Page
+![Track Order Page](screenshots/tracking.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contact Page
+![Contact Page](screenshots/contact.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Run Locally
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/0alisabbah-hash/BiteExpress.git
+   ```
+2. Open the project folder and install dependencies:
+   ```bash
+   cd BiteExpress
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm start
+   ```
+4. Open http://localhost:3000 in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+Ali Sabbah
