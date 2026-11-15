@@ -1,0 +1,17 @@
+.menuPage {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.menuPage h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

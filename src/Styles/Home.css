@@ -1,0 +1,39 @@
+.home {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.home button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 15px 0 30px 0;
+}
+
+.home button:hover {
+  background-color: #e64a19;
+}
+
+.favorites,
+.instructions {
+  margin-top: 25px;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.home ul,
+.home ol {
+  padding-left: 20px;
+}
+
+.home li {
+  margin-bottom: 8px;
+}

@@ -12,7 +12,7 @@ const About = () => {
       <h3>Our Story</h3>
       <p>
         Founded in 2026, our goal has always been: fast service without
-        impcating flavor.You are craving a classic burger, hot pizza, or crispy
+        impacting flavor.You are craving a classic burger, hot pizza, or crispy
         wings, we make every order fresh when you place it.
       </p>
 

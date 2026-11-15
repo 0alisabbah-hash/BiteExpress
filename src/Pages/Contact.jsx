@@ -3,12 +3,13 @@ import { useState } from "react";
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const confirm = () => {
+  const validate = () => {
     const newErrors = {};
     if (form.name.trim() === "") newErrors.name = "Name is required";
     if (!form.email.includes("@")) newErrors.email = "Email must contain @";
@@ -16,11 +17,14 @@ const Contact = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newErrors = confirm();
+    const newErrors = validate();
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
       setForm({ name: "", email: "", message: "" });
+      setSubmitted(true);
+    }else{
+        setSubmitted(false);  
     }
   };
 
@@ -38,6 +42,7 @@ const Contact = () => {
 
         <input
           name="email"
+          type="email"
           value={form.email}
           onChange={handleChange}
           placeholder="Email"
@@ -53,7 +58,7 @@ const Contact = () => {
 
         <button type="submit">Send Message</button>
       </form>
-      {<p>Thank you for your feedback!</p>}
+      {submitted && <p>Thank you for your feedback!</p>}
     </div>
   );
 };

@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "../Styles/Home.css";
 const Home = () => {
   return (
     <div className="home">
       <h1>Welcome to BiteExpress</h1>
       <p>Fresh, hot meals delivered fast to your doorstep.</p>
-      <Link to="/menu">
-        <button>Order Now</button>
-      </Link>
 
       <div className="favorites">
         <h2>Popular Favorites</h2>
@@ -33,6 +30,9 @@ const Home = () => {
           <li>Track your delivery to your door</li>
         </ol>
       </div>
+      <Link to="/menu">
+        <button>Order Now</button>
+      </Link>
     </div>
   );
 };
