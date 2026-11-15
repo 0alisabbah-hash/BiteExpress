@@ -9,10 +9,7 @@ const menuItems =[
     {id:2,name:"Pepperoni Pizza", price:12,img: pizza ,description:"Classic pizza with loaded pepperoni."},
     {id:3,name:"Chicken Wings",price: 7 , img : wings, description:"Crunchy Fried wings with multiple sauce options."}
 ]
-const Menu = () => {
-    const addTocart = (item) =>{
-        console.log("Added:" ,menuItems.name);
-    }
+const Menu = ({ addToCart }) => {
     return(
         <div className='menuPage'>
             <h2>Our Menu</h2>
@@ -23,7 +20,8 @@ const Menu = () => {
                     price={item.price}
                     img={item.img}
                     description={item.description}
-                    onAdd={() => addTocart(menuItems)}/>
+                    onAdd={() => addToCart(item)}
+                    />
                 ))}
             </div>
         </div>

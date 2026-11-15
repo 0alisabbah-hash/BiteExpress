@@ -1,0 +1,16 @@
+.cartPage {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
