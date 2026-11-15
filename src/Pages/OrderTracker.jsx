@@ -1,3 +1,4 @@
+import '../Styles/OrderTracker.css'
 import React, { useState } from "react";
 
 const OrderTracker = () => {
